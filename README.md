@@ -28,12 +28,12 @@
 
 ## 담당 화면 및 기능
 * 헤더   
-<img src="/img/header.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/img/header.jpg" width="700px" height="100px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 * 메인 페이지   
-<img src="/img/main.jpeg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/img/main.jpeg" width="700px" height="500px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 * 상품 카테고리   
-<img src="/img/list.jpeg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/img/list.jpeg" width="700px" height="400px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 * 장바구니   
-<img src="/img/cart.jpeg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/img/cart.jpeg" width="700px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 * 결제 페이지   
-<img src="/img/order.jpeg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/img/order.jpeg" width="700px" height="500px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
