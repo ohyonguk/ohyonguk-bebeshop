@@ -26,3 +26,10 @@
 * 결제 페이지 구현(우편 번호api, 구매목록 추가, 장바구니에서 삭제, 판매량 증가, 재고 감소)
 * 팀원들 git error 해결 
 
+## 담당 화면 및 기능
+* 헤더
+<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+* 메인 페이지
+* 상품 카테고리
+* 장바구니
+* 결제 페이지
