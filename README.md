@@ -1,5 +1,20 @@
 # bebeshop
 
+## 사용 기술
+
+* spring framework 5.x
+* oracle 11g, mybatis
+* vscode, html, css, jquery, ajax
+* apache tomcat 8.5
+* git
+
+## 개발 기간
+
+* 2021-06-28 ~ 2021-08-02(약 5주)
+
+## 참여 인원
+
+* 6명
 
 ## 담당 파트
 
