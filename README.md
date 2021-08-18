@@ -1,13 +1,12 @@
 # bebeshop
-spring을 활용한 반려동물 용품 쇼핑몰 입니다.
+> spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 
 ## 사용 기술
- 
-    * spring framework 5.x
-    * oracle 11g, mybatis
-    * vscode, html, css, jquery, ajax
-    * apache tomcat 8.5
-    * git
+* spring framework 5.x
+* oracle 11g, mybatis
+* vscode, html, css, jquery, ajax
+* apache tomcat 8.5
+* git
 
 ## 개발 기간
 
