@@ -1,4 +1,5 @@
 # bebeshop
+spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 
 ## 사용 기술
 
@@ -28,12 +29,12 @@
 
 ## 담당 화면 및 기능
 * 헤더   
-<img src="/img/header.jpg" width="700px" height="100px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+![header](https://user-images.githubusercontent.com/83194040/129907276-dbc10c05-ab0d-4c90-8911-ee41809d4bdb.jpg)
 * 메인 페이지   
-<img src="/img/main.jpeg" width="700px" height="500px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+![main](https://user-images.githubusercontent.com/83194040/129907294-075754fe-bd87-42c0-86d7-ac994ca679b5.jpeg)
 * 상품 카테고리   
-<img src="/img/list.jpeg" width="700px" height="400px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+![list](https://user-images.githubusercontent.com/83194040/129907310-2eba1224-7325-4faa-b49e-24371835ab5e.jpeg)
 * 장바구니   
-<img src="/img/cart.jpeg" width="700px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+![cart](https://user-images.githubusercontent.com/83194040/129907327-5eac499a-c6a4-4566-a548-2d448da62c5a.jpeg)
 * 결제 페이지   
-<img src="/img/order.jpeg" width="700px" height="500px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+![order](https://user-images.githubusercontent.com/83194040/129907340-a0714182-ea5c-4a24-8d27-a048dc674acb.jpeg)
