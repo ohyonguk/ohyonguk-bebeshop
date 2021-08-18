@@ -28,7 +28,7 @@ spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 * 팀원들 git error 해결 
 
 ## 담당 화면 및 기능
-* 헤더   
+### * 헤더   
 ![image](https://user-images.githubusercontent.com/83194040/129909435-cafa347a-cadd-4f01-bbc5-135f96a333ed.png)
 ##### 세션 없을 때
 ######  a. 로그인 버튼 표시
