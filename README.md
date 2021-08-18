@@ -38,3 +38,12 @@ spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 ![cart](https://user-images.githubusercontent.com/83194040/129907327-5eac499a-c6a4-4566-a548-2d448da62c5a.jpeg)
 * 결제 페이지   
 ![order](https://user-images.githubusercontent.com/83194040/129907340-a0714182-ea5c-4a24-8d27-a048dc674acb.jpeg)
+
+## 스케쥴표
+![image](https://user-images.githubusercontent.com/83194040/129907487-61353387-9341-4cf8-aa94-3b84365acff6.png) 
+
+
+## 유즈케이스
+![image](https://user-images.githubusercontent.com/83194040/129907562-27808a6b-9bcc-4b4d-8946-22f2d122cf50.png)
+
+
