@@ -28,40 +28,41 @@
 ![image](https://user-images.githubusercontent.com/83194040/129909435-cafa347a-cadd-4f01-bbc5-135f96a333ed.png)
   
   + 세션 없을 때<br/>
-   a. 로그인 버튼 표시<br/>
-   b. 장바구니 이동불가<br/>
+   a. 로그인 버튼 표시<br/><br/>
+   b. 장바구니 이동불가<br/><br/>
 ![header](https://user-images.githubusercontent.com/83194040/129907276-dbc10c05-ab0d-4c90-8911-ee41809d4bdb.jpg)
-  + 세션 유지<br/>
-   a. 세션값 id를 받아와 표시. 클릭시 마이페이지 이동<br/>
-   b. 장바구니 이동가능<br/>
+  + 세션 유지<br/><br/>
+   a. 세션값 id를 받아와 표시. 클릭시 마이페이지 이동<br/><br/>
+   b. 장바구니 이동가능<br/><br/>
    
 ---  
 * **메인 페이지** 
 ![main](https://user-images.githubusercontent.com/83194040/129907294-075754fe-bd87-42c0-86d7-ac994ca679b5.jpeg) 
- a. 물품목록을 등록일자 순으로 받아와 출력<br/>
- b. 인기상품은 판매량을 기준으로 받아와 출력<br/>
- c. 베스트 리뷰는 관리자가 선택한 리뷰들을 받아와 출력<br/>
- 
+ a. 물품목록을 등록일자 순으로 받아와 출력<br/><br/>
+ b. 인기상품은 판매량을 기준으로 받아와 출력<br/><br/>
+ c. 베스트 리뷰는 관리자가 선택한 리뷰들을 받아와 출력<br/><br/>
+
+---   
 * **상품 카테고리**   
 ![list](https://user-images.githubusercontent.com/83194040/129907310-2eba1224-7325-4faa-b49e-24371835ab5e.jpeg)
 ![image](https://user-images.githubusercontent.com/83194040/129915354-712884cc-54b3-43c5-967b-1addb1b7bd0b.png) 
- a. 접근 방식에 따라 조건을 줘서 각 조건별 동적쿼리문을 이용해 수량을 카운트<br/>
- b. 같은 조건으로 카운트한 제품들을 동적쿼리문을 이용해 출력 및 페이징 처리 이후 화면 출력<br/>
+ a. 접근 방식에 따라 조건을 줘서 각 조건별 동적쿼리문을 이용해 수량을 카운트<br/><br/>
+ b. 같은 조건으로 카운트한 제품들을 동적쿼리문을 이용해 출력 및 페이징 처리 이후 화면 출력<br/><br/>
 
 ---  
 * **장바구니**   
 ![cart](https://user-images.githubusercontent.com/83194040/129907327-5eac499a-c6a4-4566-a548-2d448da62c5a.jpeg)
 ![image](https://user-images.githubusercontent.com/83194040/129913650-917270b6-9e4d-4bf6-825d-e29efd6a2053.png)
- a. 유저 정보를 기준으로 db에서 데이터를 출력<br/>
- b. jquery를 통해 장바구니 상품 선택 삭제 가능<br/>
- c. 선택 상품 결제시 ajax 통신으로 상품 수량을 받아와 재고보다 많으면 해당상품 재고부족 알럿을 띄워줌<br/>
+ a. 유저 정보를 기준으로 db에서 데이터를 출력<br/><br/>
+ b. jquery를 통해 장바구니 상품 선택 삭제 가능<br/><br/>
+ c. 선택 상품 결제시 ajax 통신으로 상품 수량을 받아와 재고보다 많으면 해당상품 재고부족 알럿을 띄워줌<br/><br/>
 
 ---  
 * **결제 페이지**   
 ![order](https://user-images.githubusercontent.com/83194040/129907340-a0714182-ea5c-4a24-8d27-a048dc674acb.jpeg)
- a. 장바구니 or 구매하기 버튼을 통해 넘어온 데이터를 받아옴<br/>
- b. 주소 api를 통해 주소를 받음<br/>
- c. 결제 api를 통해 결제 완료시 ajax 통신으로 데이터를 서버에서 저장<br/>
+ a. 장바구니 or 구매하기 버튼을 통해 넘어온 데이터를 받아옴<br/><br/>
+ b. 주소 api를 통해 주소를 받음<br/><br/>
+ c. 결제 api를 통해 결제 완료시 ajax 통신으로 데이터를 서버에서 저장<br/><br/>
  
 ---  
 ## 스케쥴표
