@@ -32,7 +32,8 @@ spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 ![header](https://user-images.githubusercontent.com/83194040/129907276-dbc10c05-ab0d-4c90-8911-ee41809d4bdb.jpg)
   - 세션 유지
     * 세션값 id를 받아와 표시. 클릭시 마이페이지 이동
-    * 장바구니 이동가능 
+    * 장바구니 이동가능
+---  
 * 메인 페이지   
 ![main](https://user-images.githubusercontent.com/83194040/129907294-075754fe-bd87-42c0-86d7-ac994ca679b5.jpeg)
 ##### a. 물품목록을 등록일자 순으로 받아와 출력
