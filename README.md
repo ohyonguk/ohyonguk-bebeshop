@@ -27,7 +27,7 @@ spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 * 헤더   
 ![image](https://user-images.githubusercontent.com/83194040/129909435-cafa347a-cadd-4f01-bbc5-135f96a333ed.png)
   - 세션 없을 때
-   * 로그인 버튼 표시
+   *  로그인 버튼 표시
    * 장바구니 이동불가
 ![header](https://user-images.githubusercontent.com/83194040/129907276-dbc10c05-ab0d-4c90-8911-ee41809d4bdb.jpg)
   - 세션 유지
