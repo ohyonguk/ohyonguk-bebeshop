@@ -44,6 +44,5 @@ spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 
 
 ## 유즈케이스
-![image](https://user-images.githubusercontent.com/83194040/129907562-27808a6b-9bcc-4b4d-8946-22f2d122cf50.png)
-
+![image](https://user-images.githubusercontent.com/83194040/129907836-cebd780d-f802-429c-8cc8-9f77451064fd.png)
 
