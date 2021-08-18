@@ -1,5 +1,5 @@
 # bebeshop
-> spring을 활용한 반려동물 용품 쇼핑몰 입니다.
+>> spring을 활용한 반려동물 용품 쇼핑몰 입니다.
 
 ## 사용 기술
 * spring framework 5.x
