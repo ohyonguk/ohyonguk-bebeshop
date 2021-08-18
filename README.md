@@ -48,6 +48,7 @@
  a. 접근 방식에 따라 조건을 줘서 각 조건별 동적쿼리문을 이용해 수량을 카운트<br/>
  b. 같은 조건으로 카운트한 제품들을 동적쿼리문을 이용해 출력 및 페이징 처리 이후 화면 출력<br/>
 
+---  
 * **장바구니**   
 ![cart](https://user-images.githubusercontent.com/83194040/129907327-5eac499a-c6a4-4566-a548-2d448da62c5a.jpeg)
 ![image](https://user-images.githubusercontent.com/83194040/129913650-917270b6-9e4d-4bf6-825d-e29efd6a2053.png)
@@ -55,13 +56,14 @@
  b. jquery를 통해 장바구니 상품 선택 삭제 가능<br/>
  c. 선택 상품 결제시 ajax 통신으로 상품 수량을 받아와 재고보다 많으면 해당상품 재고부족 알럿을 띄워줌<br/>
 
-
+---  
 * **결제 페이지**   
 ![order](https://user-images.githubusercontent.com/83194040/129907340-a0714182-ea5c-4a24-8d27-a048dc674acb.jpeg)
  a. 장바구니 or 구매하기 버튼을 통해 넘어온 데이터를 받아옴<br/>
  b. 주소 api를 통해 주소를 받음<br/>
  c. 결제 api를 통해 결제 완료시 ajax 통신으로 데이터를 서버에서 저장<br/>
  
+---  
 ## 스케쥴표
 ![image](https://user-images.githubusercontent.com/83194040/129907487-61353387-9341-4cf8-aa94-3b84365acff6.png) 
 
