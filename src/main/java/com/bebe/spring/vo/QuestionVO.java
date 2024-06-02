@@ -1,9 +1,12 @@
 package com.bebe.spring.vo;
 
 import lombok.Data;
+import org.springframework.stereotype.Repository;
+
 import java.util.Date;
 
 @Data
+@Repository
 public class QuestionVO {
    
    private int qsNo;

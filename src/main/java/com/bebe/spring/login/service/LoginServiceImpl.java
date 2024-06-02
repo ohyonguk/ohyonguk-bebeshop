@@ -1,18 +1,15 @@
 package com.bebe.spring.login.service;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.bebe.spring.login.dao.LoginDAO;
 import com.bebe.spring.vo.UsersVO;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 
 @Service("loginService")
 public class LoginServiceImpl implements LoginService{
 
-	@Autowired
 	private LoginDAO loginDao;
 	
 	

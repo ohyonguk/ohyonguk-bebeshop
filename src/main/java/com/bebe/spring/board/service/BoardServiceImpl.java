@@ -1,19 +1,15 @@
 package com.bebe.spring.board.service;
 
-import java.util.List;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Service;
-
 import com.bebe.spring.board.dao.BoardDao;
 import com.bebe.spring.board.vo.BoardVO;
 import com.bebe.spring.board.vo.Criteria;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service("service")
 public class BoardServiceImpl implements BoardService {
 
-	@Inject
 	private BoardDao dao;
 
 	@Override

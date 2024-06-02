@@ -5,8 +5,10 @@ import java.util.Date;
 import java.util.List;
 
 import lombok.Data;
+import org.springframework.stereotype.Repository;
 
 @Data
+@Repository
 public class OrdersAddressVO {
 
 	

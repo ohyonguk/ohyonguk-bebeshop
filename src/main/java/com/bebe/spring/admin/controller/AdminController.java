@@ -1,51 +1,38 @@
 package com.bebe.spring.admin.controller;
 
-import java.io.File;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
+import com.bebe.spring.admin.service.AdminService;
+import com.bebe.spring.vo.OrdersSearchVO;
+import com.bebe.spring.vo.OrdersVO;
+import com.bebe.spring.vo.ProductSearchVO;
+import com.bebe.spring.vo.UsersVO;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bebe.spring.admin.service.AdminService;
-import com.bebe.spring.utils.UploadFileUtils;
-import com.bebe.spring.vo.OptionsVO;
-import com.bebe.spring.vo.OrdersSearchVO;
-import com.bebe.spring.vo.OrdersVO;
-import com.bebe.spring.vo.ProductOptionsVO;
-import com.bebe.spring.vo.ProductSearchVO;
-import com.bebe.spring.vo.UsersVO;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping(value = "admin")
 public class AdminController {
 
-	@Resource(name = "adminService")
 	private AdminService adminService;
 
 	
-@Resource(name = "uploadPath") 
 private String uploadPath;
-	
+
 	// -------------------------------------------- 관리자 정보 페이지
 	// --------------------------------------------
 	// 관리자 정보 페이지 첫 화면
-	@RequestMapping(value = "/admin_info", method = RequestMethod.GET)
-	public String adminInfoGet(HttpServletRequest req) {
-		System.out.println("관리자 인포 GET 진입");
-
-		return "/admin/admin_info";
-	}
+//	@RequestMapping(value = "/admin_info", method = RequestMethod.GET)
+//	public String adminInfoGet(HttpServletRequest req) {
+//		System.out.println("관리자 인포 GET 진입");
+//
+//		return "/admin/admin_info";
+//	}
 
 	// 관리자 정보 페이지에서 비밀번호 변경 눌렀을때
 	@RequestMapping(value = "/admin_info", method = RequestMethod.POST)
@@ -119,44 +106,44 @@ private String uploadPath;
 	}
 
 	// 상품 추가 페이지에서 추가버튼 눌렀을 때
-	@RequestMapping(value = "/product_add", method = RequestMethod.POST)
-	public String adminProductaddPost(ProductOptionsVO productOpVo, MultipartFile[] file, HttpServletRequest request) throws Exception {
-		System.out.println("관리자 상품관리 POST 진입");
-		
-		
-		// 파일 업로드 처리 로직
-		String imgUploadPath = uploadPath + File.separator + "imgUpload";
-//		String ymdPath = UploadFileUtils.calcPath(imgUploadPath);
-		String fileName = null;
-
-
-		for (int i = 0; i < file.length; i++) {
-			if (file[i].getOriginalFilename() != null && file[i].getOriginalFilename() != "") {
-				fileName = UploadFileUtils.fileUpload(imgUploadPath, file[i].getOriginalFilename(), file[i].getBytes());				
-				if (i == 0)
-					productOpVo.setProductImg1(File.separator + "imgUpload" +  File.separator + fileName);
-				else if (i == 1)
-					productOpVo.setProductImg2(File.separator + "imgUpload" +  File.separator + fileName);
-				else if (i == 2)
-					productOpVo.setProductImg3(File.separator + "imgUpload" + File.separator + fileName);
-				else if (i == 3)
-					productOpVo.setProductImg4(File.separator + "imgUpload" +  File.separator + fileName);
-			} 
-//			else {
-//				fileName = uploadPath + File.separator + "images" + File.separator + "none.png";
+//	@RequestMapping(value = "/product_add", method = RequestMethod.POST)
+//	public String adminProductaddPost(ProductOptionsVO productOpVo, MultipartFile[] file, HttpServletRequest request) throws Exception {
+//		System.out.println("관리자 상품관리 POST 진입");
+//
+//
+//		// 파일 업로드 처리 로직
+//		String imgUploadPath = uploadPath + File.separator + "imgUpload";
+////		String ymdPath = UploadFileUtils.calcPath(imgUploadPath);
+//		String fileName = null;
+//
+//
+//		for (int i = 0; i < file.length; i++) {
+//			if (file[i].getOriginalFilename() != null && file[i].getOriginalFilename() != "") {
+//				fileName = UploadFileUtils.fileUpload(imgUploadPath, file[i].getOriginalFilename(), file[i].getBytes());
+//				if (i == 0)
+//					productOpVo.setProductImg1(File.separator + "imgUpload" +  File.separator + fileName);
+//				else if (i == 1)
+//					productOpVo.setProductImg2(File.separator + "imgUpload" +  File.separator + fileName);
+//				else if (i == 2)
+//					productOpVo.setProductImg3(File.separator + "imgUpload" + File.separator + fileName);
+//				else if (i == 3)
+//					productOpVo.setProductImg4(File.separator + "imgUpload" +  File.separator + fileName);
 //			}
-		}
-		
-		System.out.println(productOpVo.getProductImg1());
-		System.out.println(productOpVo.getProductImg2());
-		System.out.println(productOpVo.getProductImg3());
-		System.out.println(productOpVo.getProductImg4());
-
-		System.out.println(productOpVo.toString());
-		adminService.insertProduct(productOpVo);
-
-		return "/admin/product_add";
-	}
+////			else {
+////				fileName = uploadPath + File.separator + "images" + File.separator + "none.png";
+////			}
+//		}
+//
+//		System.out.println(productOpVo.getProductImg1());
+//		System.out.println(productOpVo.getProductImg2());
+//		System.out.println(productOpVo.getProductImg3());
+//		System.out.println(productOpVo.getProductImg4());
+//
+//		System.out.println(productOpVo.toString());
+//		adminService.insertProduct(productOpVo);
+//
+//		return "/admin/product_add";
+//	}
 
 	// -------------------------------------------- 재고 관리 페이지
 	// --------------------------------------------
@@ -217,14 +204,14 @@ private String uploadPath;
 	}
 
 	// 옵션 추가 팝업 - 추가 버튼 눌렀을때
-	@RequestMapping(value = "/productMngOptionAdd", method = RequestMethod.POST)
-	public String popupPost(OptionsVO optionsVo, HttpServletRequest request) {
-		System.out.println("옵션추가진행");
-		adminService.insertOptions(optionsVo);
-
-		String referer = request.getHeader("Referer");
-		return "redirect:" + referer;
-	}
+//	@RequestMapping(value = "/productMngOptionAdd", method = RequestMethod.POST)
+//	public String popupPost(OptionsVO optionsVo, HttpServletRequest request) {
+//		System.out.println("옵션추가진행");
+//		adminService.insertOptions(optionsVo);
+//
+//		String referer = request.getHeader("Referer");
+//		return "redirect:" + referer;
+//	}
 
 	// -------------------------------------------- 유저 관리 페이지
 	// --------------------------------------------

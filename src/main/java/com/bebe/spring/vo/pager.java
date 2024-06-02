@@ -1,11 +1,13 @@
 package com.bebe.spring.vo;
 
+import org.springframework.stereotype.Repository;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import lombok.Data;
 
 
 @Data
+@Repository
 public class pager {
 
 

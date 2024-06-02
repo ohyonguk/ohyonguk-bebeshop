@@ -1,17 +1,13 @@
 package com.bebe.spring.user.service;
 
-import java.util.List;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Service;
-
 import com.bebe.spring.user.dao.CartDAO;
 import com.bebe.spring.vo.CartVO;
+import org.springframework.stereotype.Service;
 
-@Service(value = "cartService")
+import java.util.List;
+
+//@Service(value = "cartService")
 public class CartServiceImpl implements CartService {
-	@Inject
 	CartDAO cartDAO;
 
 	@Override
