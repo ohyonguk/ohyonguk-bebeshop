@@ -7,19 +7,7 @@
 <!-- <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet"></head>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Jua&display=swap" rel="stylesheet"> -->
     
-<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-    <script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>    
-    
-    <meta name="google-signin-scope" content="profile email">
-	<meta name="google-signin-client_id"
-   content="1059402509993-5dgo9oqfau9tharl9cbb1qe4prp40h0j.apps.googleusercontent.com">
-	<script src="https://apis.google.com/js/platform.js" async defer></script>    	
-	<script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
 	
 	
 	<!-- 소셜 -->
@@ -90,7 +78,7 @@ function signOut() {
 
     </script>
 
-<script type="text/javascript" src="/js/search.js"></script>
+
 
 
 

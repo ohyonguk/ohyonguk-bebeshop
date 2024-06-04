@@ -46,7 +46,7 @@
     margin-top: 10px;
 }
 
-#purchaseBtn {
+#purchaseBtn,#delbtn {
     float: right;
     width: 90px;
     height: 30px;

@@ -3,8 +3,10 @@ package com.bebe.spring.vo;
 import java.util.Date;
 
 import lombok.Data;
+import org.springframework.stereotype.Repository;
 
 @Data
+@Repository
 public class OrdersVO {
 	private String id;
 	private int orderNo;

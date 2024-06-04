@@ -1,3 +1,4 @@
+/*
 package com.bebe.spring.user.controller;
 
 
@@ -22,7 +23,6 @@ import com.bebe.spring.vo.UsersVO;
 
 @RequestMapping("/user")
 public class CartController {
-	@Inject
 	CartService cartService;
 
 	// 테스트용
@@ -105,4 +105,4 @@ public String checkStock(CartVO cv, String[] productNo, String[] checked, String
 	}
 }
 
-	
+	*/

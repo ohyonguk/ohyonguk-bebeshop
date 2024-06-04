@@ -1,19 +1,11 @@
 package com.bebe.spring.order.service;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Service;
-
 import com.bebe.spring.order.dao.OrdersDAO;
 import com.bebe.spring.vo.OrdersAddressVO;
+import org.springframework.stereotype.Service;
 
-@Service("orderService")
+@Service("ordersService")
 public class OrdersServiceImpl implements OrdersService {
-	@Inject
 	OrdersDAO ordersDAO;
 	
 	@Override
