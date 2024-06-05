@@ -8,7 +8,7 @@ import com.bebe.spring.vo.ProductVO;
 public interface SearchService {
 
 //	int action(Criteria cri);
-////카테고리별 수량
+//카테고리별 수량
 //	public Integer count(Criteria cri);
 ////출력
 //	public List<Criteria> getlist(Criteria cri);
@@ -18,8 +18,8 @@ public interface SearchService {
 //
 //	// 검색상품 출력
 //	public List<Criteria> searchlist(Criteria cri);
-	
-	public Integer ccount(Criteria cri);
-	public List<Criteria> llist(Criteria cri);
+//
+//	public Integer ccount(Criteria cri);
+//	public List<Criteria> llist(Criteria cri);
 
 }

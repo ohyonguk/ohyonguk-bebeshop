@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.datatype",
+    "module": "jackson-datatype-hibernate5-jakarta",
+    "version": "2.15.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.transaction",
+          "module": "jakarta.transaction-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.15.4"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.4"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.15.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-datatype-hibernate5-jakarta-2.15.4.jar",
+          "url": "jackson-datatype-hibernate5-jakarta-2.15.4.jar",
+          "size": 26661,
+          "sha512": "7e85db589fd5ae246d63e69221f0fb8d0a6d06b75df70ce80d50e85682f286ae56567aed08a9e1094bde169bd7aeb9fac5882f8830c297025a51135d070f77f5",
+          "sha256": "25de1bbc26ff51aefa17d11849d29413f781f506355636b0aa12f4872ecedf1e",
+          "sha1": "e16132681e513efa9993d31774f8a7c52bdfc6ae",
+          "md5": "13d1fd9ee0b8a42c1695ccf6e41260ae"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.transaction",
+          "module": "jakarta.transaction-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.15.4"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.4"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.15.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-datatype-hibernate5-jakarta-2.15.4.jar",
+          "url": "jackson-datatype-hibernate5-jakarta-2.15.4.jar",
+          "size": 26661,
+          "sha512": "7e85db589fd5ae246d63e69221f0fb8d0a6d06b75df70ce80d50e85682f286ae56567aed08a9e1094bde169bd7aeb9fac5882f8830c297025a51135d070f77f5",
+          "sha256": "25de1bbc26ff51aefa17d11849d29413f781f506355636b0aa12f4872ecedf1e",
+          "sha1": "e16132681e513efa9993d31774f8a7c52bdfc6ae",
+          "md5": "13d1fd9ee0b8a42c1695ccf6e41260ae"
+        }
+      ]
+    }
+  ]
+}

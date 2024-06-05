@@ -1,15 +1,11 @@
 package com.bebe.spring.utils;
 
+import org.springframework.util.FileCopyUtils;
+
 import java.io.File;
 import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.UUID;
-
-import javax.servlet.Servlet;
-import javax.servlet.ServletContext;
-
-import org.springframework.util.FileCopyUtils;
-import net.coobird.thumbnailator.Thumbnails;
 
 public class UploadFileUtils {
   

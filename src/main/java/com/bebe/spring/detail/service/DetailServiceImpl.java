@@ -1,18 +1,16 @@
 package com.bebe.spring.detail.service;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.bebe.spring.detail.dao.DetailDao;
 import com.bebe.spring.vo.CartVO;
 import com.bebe.spring.vo.DetailVO;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service("detailService")
+@RequiredArgsConstructor
 public class DetailServiceImpl implements DetailService {
-
-	@Autowired
 	private DetailDao detailDao;
 
 	@Override

@@ -3,8 +3,10 @@ package com.bebe.spring.vo;
 import java.util.Date;
 
 import lombok.Data;
+import org.springframework.stereotype.Repository;
 
 @Data
+@Repository
 public class ProductOptionsVO {
 	
 	//프로덕트

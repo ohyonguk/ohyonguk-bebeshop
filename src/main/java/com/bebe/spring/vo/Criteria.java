@@ -2,11 +2,13 @@ package com.bebe.spring.vo;
 
 import java.util.Date;
 
+import org.springframework.stereotype.Repository;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import lombok.Data;
 
 @Data
+@Repository
 public class Criteria {
 	private String mainCategory;
 	   private int productNo;

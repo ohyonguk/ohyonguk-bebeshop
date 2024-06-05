@@ -1,19 +1,16 @@
 package com.bebe.spring.user.service;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.bebe.spring.user.dao.UserDao;
 import com.bebe.spring.vo.OrdersAddressVO;
 import com.bebe.spring.vo.OrdersVO;
 import com.bebe.spring.vo.UsersVO;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service ("userService")
 public class UserServiceImpl implements UserService {
 	
-	@Autowired
 	private UserDao userDao;
 
 	@Override

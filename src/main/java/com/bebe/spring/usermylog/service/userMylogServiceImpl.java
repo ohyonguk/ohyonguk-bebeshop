@@ -1,19 +1,15 @@
 package com.bebe.spring.usermylog.service;
 
-import java.util.List;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Service;
-
 import com.bebe.spring.usermylog.dao.userMylogDAO;
 import com.bebe.spring.vo.QuestionVO;
 import com.bebe.spring.vo.ReviewVO;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Map;
 
 @Service(value="userMylogService")
 public class userMylogServiceImpl implements userMylogService{
-	@Inject
 	 userMylogDAO user;
 
 
